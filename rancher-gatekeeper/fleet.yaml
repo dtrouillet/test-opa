@@ -1,0 +1,12 @@
+defaultNamespace: cattle-gatekeeper-system
+helm:
+  repo: https://charts.rancher.io
+  chart: rancher-gatekeeper
+  version: 101.0.0+up3.9.0
+  releaseName: rancher-gatekeeper
+  values:
+    experimentalEnableMutation: true
+    auditMatchKindOnly: true
+    auditFromCache: true
+dependsOn:
+  - name: opa-gatekeeper-rancher-gatekeeper-crd
