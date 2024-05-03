@@ -12,7 +12,6 @@ metadata:
     - module
   annotations:
     github.com/project-slug: dtrouillet/test-opa
-    backstage.io:source-location: https://github.com/dtrouillet/test-opa/
 spec:
   type: Terraform
   lifecycle: production
