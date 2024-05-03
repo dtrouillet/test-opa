@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-opa
+  annotations:
+    github.com/project-slug: dtrouillet/test-opa
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
