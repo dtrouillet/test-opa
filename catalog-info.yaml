@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-opa
+  links:
+    - url: https://google.com
+      title: My Dashboard
+      icon: dashboard
   annotations:
     github.com/project-slug: dtrouillet/test-opa
 spec:
