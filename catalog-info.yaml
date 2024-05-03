@@ -9,6 +9,6 @@ metadata:
   annotations:
     github.com/project-slug: dtrouillet/test-opa
 spec:
-  type: other
+  type: Terraform
   lifecycle: unknown
   owner: guests
